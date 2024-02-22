@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  2048-game:
+    image: "santospardos/sanvalero:2048"
+    ports:
+      - 80:80
